@@ -23,7 +23,7 @@ class Color{
     void setGreen (int g) {green = g;}
     int getGreen()        {return green;}
 
-    void print(){ 
+    void print(){ //print function
         cout << setw(15) << "Red: " << red << endl;
         cout << setw(15) << "Blue: " << blue << endl;
         cout << setw(15) << "Green: " << green << endl;
@@ -33,6 +33,8 @@ class Color{
 
 int main(){
   cout << fixed << setprecision(2);
+    // creating objects
+    // setting values and printing them for each color
   Color Red;
   Red.setRed(123);
   Red.setBlue(0);
